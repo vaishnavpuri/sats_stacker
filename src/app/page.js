@@ -166,7 +166,7 @@ const LandingPage = ({ onStart }) => (
     </div>
     
     <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tighter mb-6">
-      Satoshi<span className="text-[#FF5F1F]">Stacker</span>
+      Satoshi<span className="text-[#FF5F1F]">Signal</span>
     </h1>
     
     <p className="text-xl md:text-2xl text-white/40 max-w-2xl leading-relaxed mb-12 font-light">
@@ -582,7 +582,7 @@ const SimulationLab = ({ activeProfile }) => {
 
 // --- MAIN COMPONENT ---
 
-export default function SatoshiStacker() {
+export default function SatoshiSignal() {
   const [profiles, setProfiles] = useState([]);
   const [activeProfileId, setActiveProfileId] = useState(null);
   const [view, setView] = useState('landing');
@@ -757,7 +757,7 @@ export default function SatoshiStacker() {
                    <Zap className="text-white fill-white" size={20}/>
                  </div>
                  <div>
-                    <h1 className="text-xl font-bold tracking-tight">SatoshiStacker</h1>
+                    <h1 className="text-xl font-bold tracking-tight">SatoshiSignal</h1>
                     <p className="text-[10px] font-bold text-white/40 uppercase tracking-widest">{activeProfile?.name || "Setup"}</p>
                  </div>
              </div>
