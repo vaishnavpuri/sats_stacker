@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "SatoshiSignal",
-  description: "The Reactive Accumulation Engine",
+  description: "The Reactive BTC Accumulation Engine",
 };
 
 export default function RootLayout({ children }) {
