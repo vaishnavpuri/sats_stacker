@@ -170,7 +170,7 @@ const LandingPage = ({ onStart }) => (
     </h1>
     
     <p className="text-xl md:text-2xl text-white/40 max-w-2xl leading-relaxed mb-12 font-light">
-      The Reactive Accumulation Engine.
+      The Reactive BTC Accumulation Engine.
       <br />
       <span className="text-white/80">Buy fear. Ignore noise. Stack sats.</span>
     </p>
